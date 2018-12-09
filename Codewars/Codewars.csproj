@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B3D8C8F-DA9A-4FFB-98B5-9CBC1D228470}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Codewars</RootNamespace>
+    <AssemblyName>Codewars</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Tuples, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Tuples.1.0.0\lib\net35\System.Tuples.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3 Kyu\Calculator.cs" />
+    <Compile Include="4 Kyu\AddingBigNumbers.cs" />
+    <Compile Include="4 Kyu\ExpandingDependencyChains.cs" />
+    <Compile Include="4 Kyu\HumanReadableDurationFormat.cs" />
+    <Compile Include="4 Kyu\RomanNumeralsDecoder.cs" />
+    <Compile Include="4 Kyu\RomanNumeralsEncoder.cs" />
+    <Compile Include="4 Kyu\SudokuSolutionValidator.cs" />
+    <Compile Include="4 Kyu\TotalIncreasingDecreasingNumbers.cs" />
+    <Compile Include="5 Kyu\ComputeTheLargestSumAllContiguousSubsequences.cs" />
+    <Compile Include="5 Kyu\ConvertStringToCamelCase.cs" />
+    <Compile Include="5 Kyu\IsMyFriendCheating.cs" />
+    <Compile Include="5 Kyu\LetsPlayDarts.cs" />
+    <Compile Include="5 Kyu\RGBToHexConversion.cs" />
+    <Compile Include="5 Kyu\Scramblies.cs" />
+    <Compile Include="5 Kyu\TicTacToeChecker.cs" />
+    <Compile Include="5 Kyu\WeightForWeight.cs" />
+    <Compile Include="5 Kyu\WhereMyAnagrams.cs" />
+    <Compile Include="6 Kyu\AreTheySame.cs" />
+    <Compile Include="6 Kyu\ArrayDifference.cs" />
+    <Compile Include="6 Kyu\BackwardsReadPrimes.cs" />
+    <Compile Include="6 Kyu\BallUpwards.cs" />
+    <Compile Include="6 Kyu\BankersPlan.cs" />
+    <Compile Include="6 Kyu\BouncingBall.cs" />
+    <Compile Include="6 Kyu\BuyingCar.cs" />
+    <Compile Include="6 Kyu\CartesianNeighborsDistance.cs" />
+    <Compile Include="6 Kyu\ClockInMirror.cs" />
+    <Compile Include="6 Kyu\ConsonantValue.cs" />
+    <Compile Include="6 Kyu\CountCharactersInYourString.cs" />
+    <Compile Include="6 Kyu\DecodeTheMorseCode.cs" />
+    <Compile Include="6 Kyu\FormatWordsIntoSentence.cs" />
+    <Compile Include="6 Kyu\IQTest.cs" />
+    <Compile Include="6 Kyu\LastDigitSymmetry.cs" />
+    <Compile Include="6 Kyu\MysteriousFunction.cs" />
+    <Compile Include="6 Kyu\PositionsAverage.cs" />
+    <Compile Include="6 Kyu\TheBookOfMormon.cs" />
+    <Compile Include="6 Kyu\TortoiseRacing.cs" />
+    <Compile Include="6 Kyu\ValidateCreditCardNumber.cs" />
+    <Compile Include="6 Kyu\WhichAreIn.cs" />
+    <Compile Include="6 Kyu\WordsToHex.cs" />
+    <Compile Include="7 Kyu\AlphabetSymmetry.cs" />
+    <Compile Include="7 Kyu\BasicCalculator.cs" />
+    <Compile Include="7 Kyu\BinaryAddition.cs" />
+    <Compile Include="7 Kyu\CartesianNeighbors.cs" />
+    <Compile Include="7 Kyu\CheckThreeAndTwo.cs" />
+    <Compile Include="7 Kyu\ConvertToBinaryHex.cs" />
+    <Compile Include="7 Kyu\CreatePhoneNumber.cs" />
+    <Compile Include="7 Kyu\CreditCardIssuerChecking.cs" />
+    <Compile Include="7 Kyu\FactorialFactory.cs" />
+    <Compile Include="7 Kyu\GreatestCommonDivisor.cs" />
+    <Compile Include="7 Kyu\PartsOfList.cs" />
+    <Compile Include="7 Kyu\RemoveFiles.cs" />
+    <Compile Include="7 Kyu\SumOfSequence.cs" />
+    <Compile Include="Not solved\CountingChangeCombinations.cs" />
+    <Compile Include="Not solved\SimpleEncryptionAlternatingSplit.cs" />
+    <Compile Include="Not solved\SimpleEncryptionIndexDifference.cs" />
+    <Compile Include="Not solved\SimpleEncryptionQwerty.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
