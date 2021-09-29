@@ -14,6 +14,7 @@ namespace Codewars
 {
     class Program
     {
+        // test
         static void Main(string[] args)
         {
             foreach (var item in IsMyFriendCheating.RemovNb(100))
